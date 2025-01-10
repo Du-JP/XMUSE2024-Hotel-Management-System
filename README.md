@@ -31,6 +31,6 @@ final String PASS = "djp123123"; // 数据库密码
 ## java代码使用方法
 方法1：首先要把驱动（sqljdbc41.jar）安装好，驱动也已经上传到github上了。
 
-运行Home.java即可运行程序。
+运行javacode/HMS/src/hms/Home.java即可运行程序。
 
 方法2：点击hms.exe即可运行
