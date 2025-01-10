@@ -6,8 +6,9 @@
 22920212204248   熊凯
 # 安装方法（要在数据库配置好的情况下才能访问数据库）
 ## 数据库安装方法
+###1、导入
 将目录为SQL里面的HotelMange数据库里的两个文件导入SQLserver-2019中。
-
+###2、数据库设置
 final String DB_URL = "jdbc:sqlserver://localhost:1433;DatabaseName=HotelMange"; // 数据库URL
 
 final String USER = "sa"; // 数据库用户名
@@ -15,7 +16,7 @@ final String USER = "sa"; // 数据库用户名
 final String PASS = "djp123123"; // 数据库密码
 
 这是数据库的设置，导入后要设置正确。
-
+###3、连接设置
 键盘上按下win+r，打开SQLServerManager16.msc，如下图
 
 ![image](https://github.com/user-attachments/assets/9f949617-a851-4e64-9a1f-2515a8d07408)
