@@ -9,7 +9,9 @@
 将目录为SQL里面的HotelMange数据库里的两个文件导入SQLserver-2019中。
 
 final String DB_URL = "jdbc:sqlserver://localhost:1433;DatabaseName=HotelMange"; // 数据库URL
+
 final String USER = "sa"; // 数据库用户名
+
 final String PASS = "djp123123"; // 数据库密码
 
 这是数据库的设置，导入后要设置正确。
@@ -20,9 +22,10 @@ final String PASS = "djp123123"; // 数据库密码
 
 进行如下设置：
 
-![Uploading image.png…]()
-
 ![image](https://github.com/user-attachments/assets/5b3106e7-cd63-457f-9b47-4be265f2f10b)
+
+![image](https://github.com/user-attachments/assets/2873de49-7d1d-466e-ad44-7217560e345a)
+
 
 ## java代码使用方法
 方法1：首先要把驱动（sqljdbc41.jar）安装好，驱动也已经上传到github上了。
